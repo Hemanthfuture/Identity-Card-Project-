@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.index-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid orange; */
+    display: flex;
+    
+    /* margin: auto; */
+    /* background-color: orange; */
+}
+
+.app-container{
+    width: 500px;
+    height: 690px;
+    margin:  30px auto;
+    /* border: 2px solid green; */
+    background-color: black;
+    color: white;
+    /* background-color: green; */
+}
+
+/* .header-container h3{
+    width: 180px;
+    margin: 0 auto;
+} */
+
+.header-container img{
+    width: 200px;
+    height: 200px;
+    margin: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-image{
+    /* border: 2px solid grey; */
+    color: black;
+    font-size: 28px;
+    width: 100%;
+    margin:0px auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 231, 84);
+}
+.head-name{
+    width: 200px;
+    margin: 1px auto;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    padding: 0%;
+    margin-top: 20px;
+}
+.head-job{
+    width: 180px;
+    margin: 0px auto;
+    font-size: 15px;
+    padding: 0%;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 600; */
+    /* margin-left: 0px auto; */
+    color: rgb(245, 199, 144);
+}
+.head-loc{
+    width: 140px;
+    margin: 0px auto;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 600; */
+    /* margin-left: 0px auto; */
+    color: bisque;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.email-button{
+    width: 150px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: black;
+}
+.linkedin-button{
+    width: 150px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(8, 129, 242);
+    color: white;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 20px;
+    
+}
+
+.about-name{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 8px;
+    
+}
+.about-content{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 8px;
+}
+.interest-name{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 8px;
+}
+.interest-content{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 8px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 31, 31);
+    padding: 18px 0px;
+    gap: 25px;
+    font-size: 30px;
+}
+.icon-one{
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+}
